@@ -11,5 +11,12 @@ jobs:
     my-second-job:
         runs-on: ubuntu-latest
         steps:
-            - run: echo 'hello world 2'        
+            - run: echo 'hello world 2'  
+    my-third-job:
+        runs-on: ubuntu-latest
+        steps:
+            - run: |
+               echo 'line 1 executed'
+               echo 'line 2 executed'
+               echo 'line 3 executed'              
                 
